@@ -12,19 +12,9 @@
   "keywords": [
     "nextjs",
     "typescript",
-<<<<<<< HEAD
-    "executive-aid"
-  ],
-  "author": "Executive Aid",
-  "license": "ISC",
-  "dependencies": {
-    "swiper": "^11.2.10"
-  }
-=======
     "razorbill",
     "razorbill-technologies"
   ],
   "author": "Razorbill Technologies",
   "license": "ISC"
->>>>>>> dev
 }
