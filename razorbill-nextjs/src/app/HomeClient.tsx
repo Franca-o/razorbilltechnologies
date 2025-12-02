@@ -1028,7 +1028,7 @@ export default function HomeClient() {
           <li><Link href="#bookmyspot" className="hover:text-cyan-400 transition">BookMySpot</Link></li>
           <li><Link href="#focuscrm" className="hover:text-cyan-400 transition"> Focus</Link></li>
 
-          <li><Link href="https://razorbillbookmyspot.netlify.app/" className="hover:text-cyan-400 transition">Sign Up</Link></li>
+          <li><Link href="https://razorbillbookmyspot.netlify.app/" className="hover:text-cyan-400 transition">Sign Up Now</Link></li>
         </ul>
       </div>
 
