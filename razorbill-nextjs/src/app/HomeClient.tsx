@@ -215,7 +215,7 @@ export default function HomeClient() {
           </p>
         </div>
         <div className="flex justify-center gap-3">
-          <Link href="/signup" className="inline-block bg-gradient-to-r from-gray-600 to-gray-800 text-white px-4 py-2 rounded-md text-sm font-semibold shadow-md hover:from-gray-700 hover:to-black transition">
+          <Link href="https://razorbillbookmyspot.netlify.app/" className="inline-block bg-gradient-to-r from-gray-600 to-gray-800 text-white px-4 py-2 rounded-md text-sm font-semibold shadow-md hover:from-gray-700 hover:to-black transition">
             Sign Up
           </Link>
           <Link href="#bookmyspot" className="inline-block border border-gray-600 text-gray-800 px-4 py-2 rounded-md text-sm font-semibold hover:bg-gray-800 hover:text-white transition">
@@ -278,7 +278,7 @@ export default function HomeClient() {
           </p>
         </div>
         <div className="flex justify-center gap-3">
-          <Link href="/signup" className="inline-block bg-gradient-to-r from-gray-600 to-gray-800 text-white px-4 py-2 rounded-md text-sm font-semibold shadow-md hover:from-gray-700 hover:to-black transition">
+          <Link href="https://razorbillbookmyspot.netlify.app/" className="inline-block bg-gradient-to-r from-gray-600 to-gray-800 text-white px-4 py-2 rounded-md text-sm font-semibold shadow-md hover:from-gray-700 hover:to-black transition">
             Sign Up
           </Link>
           <Link href="#focuscrm" className="inline-block border border-gray-600 text-gray-800 px-4 py-2 rounded-md text-sm font-semibold hover:bg-gray-800 hover:text-white transition">
@@ -552,7 +552,7 @@ export default function HomeClient() {
 
   
     {/* Focus CRM */}
-      <section className="py-16 relative bg-gradient-to-br from-[#d9d9d9] via-[#c0c0c0] to-[#a6a6a6] text-gray-900 overflow-hidden" id="bookmyspot">
+      <section className="py-16 relative bg-gradient-to-br from-[#d9d9d9] via-[#c0c0c0] to-[#a6a6a6] text-gray-900 overflow-hidden" id="focuscrm">
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,_rgba(255,255,255,0.4)_0%,_transparent_40%)] opacity-40"></div>
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_bottom_right,_rgba(180,180,180,0.4)_0%,_transparent_40%)] opacity-40"></div>
 
@@ -965,7 +965,7 @@ export default function HomeClient() {
 
 
       {/* CTA Section */}
-<section className="py-16 bg-gradient-to-br from-[#f5f5f5]/90 via-[#e0e0e0]/85 to-[#cccccc]/90 backdrop-blur-xl text-gray-900 relative overflow-hidden">
+  <section className="py-16 bg-gradient-to-br from-[#f5f5f5]/90 via-[#e0e0e0]/85 to-[#cccccc]/90 backdrop-blur-xl text-gray-900 relative overflow-hidden">
   <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_rgba(255,255,255,0.5)_0%,_transparent_70%)] opacity-40"></div>
 
   <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -981,15 +981,17 @@ export default function HomeClient() {
     </div>
 
     <div className="flex justify-center mt-8">
-      <Link 
-        href="/signup"
-        className="inline-flex items-center bg-gradient-to-r from-cyan-400 to-blue-600 text-white px-6 md:px-8 py-2 md:py-3 text-sm md:text-base font-bold rounded-full shadow-lg hover:from-blue-500 hover:to-purple-600 transition-all duration-300 button-hover-glow font-orbitron"
+      <a 
+        href="https://razorbillbookmyspot.netlify.app/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="inline-flex items-center bg-gradient-to-r from-cyan-400 to-blue-600 text-white px-6 md:px-8 py-2 md:py-3 text-sm md:text-base font-bold rounded-full shadow-lg hover:from-blue-500 hover:to-purple-600 transition-all duration-300 button-hover-glow font-orbitron cursor-pointer pointer-events-auto z-10"
       >
         Sign Up Today
         <svg className="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
         </svg>
-      </Link>
+      </a>
     </div>
   </div>
 </section>
@@ -1011,7 +1013,7 @@ export default function HomeClient() {
           className="mb-3 rounded-lg shadow-[0_0_20px_rgba(200,200,200,0.4)] bg-white/70 backdrop-blur-md p-1"
         />
         <h3 className="text-2xl font-orbitron font-bold text-gray-200 mb-3">
-          <span className="text-cyan-400">Razorbill</span> Technologies
+          <span className="text-gray-400">Razorbill</span> Technologies
         </h3>
         <p className="text-sm text-gray-400">
           Simplified Enterprise Solutions<br />
@@ -1024,9 +1026,9 @@ export default function HomeClient() {
         <h4 className="font-bold text-gray-100 mb-4">Quick Links</h4>
         <ul className="space-y-2 text-gray-400 text-sm">
           <li><Link href="#bookmyspot" className="hover:text-cyan-400 transition">BookMySpot</Link></li>
-          <li><Link href="#focuscrm" className="hover:text-cyan-400 transition">Focus CRM</Link></li>
-          <li><Link href="#solutions" className="hover:text-cyan-400 transition">Marketplace</Link></li>
-          <li><Link href="/signup" className="hover:text-cyan-400 transition">Sign Up</Link></li>
+          <li><Link href="#focuscrm" className="hover:text-cyan-400 transition"> Focus</Link></li>
+
+          <li><Link href="https://razorbillbookmyspot.netlify.app/" className="hover:text-cyan-400 transition">Sign Up</Link></li>
         </ul>
       </div>
 
@@ -1036,8 +1038,8 @@ export default function HomeClient() {
         <ul className="space-y-2 text-gray-400 text-sm">
           <li><Link href="#solutions" className="hover:text-cyan-400 transition">Solutions</Link></li>
           <li><Link href="#footer" className="hover:text-cyan-400 transition">Contact</Link></li>
-          <li><Link href="/" className="hover:text-cyan-400 transition">Privacy Policy</Link></li>
-          <li><Link href="/" className="hover:text-cyan-400 transition">Terms of Service</Link></li>
+          <li><Link href="/policies/privacy-policy" className="hover:text-cyan-400 transition">Privacy Policy</Link></li>
+          
         </ul>
       </div>
 
@@ -1047,8 +1049,8 @@ export default function HomeClient() {
         <ul className="space-y-2 text-gray-400 text-sm">
           <li className="flex items-center">
             <Mail className="w-4 h-4 mr-2 text-cyan-400" />
-            <a href="mailto:info@razorbill.tech" className="hover:text-cyan-400 transition">
-              info@razorbill.tech
+            <a href="mailto:support@executiveaid.org" className="hover:text-cyan-400 transition">
+              support@executiveaid.org
             </a>
           </li>
           <li className="flex items-center">
