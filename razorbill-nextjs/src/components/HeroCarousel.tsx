@@ -64,7 +64,7 @@ export function HeroCarousel() {
           <div className="flex flex-col">
             <Link
               href="/"
-              className="relative text-3xl sm:text-5xl md:text-6xl font-extrabold tracking-wider text-cyan-400 drop-shadow-lg hover:text-blue-500 transition-all duration-300 font-orbitron"
+              className="relative text-3xl sm:text-5xl md:text-6xl font-extrabold tracking-wider text-gray-400 drop-shadow-lg hover:text-gray-500 transition-all duration-300 font-orbitron"
             >
               <span className="animate-wave inline-block">R</span>
               <span className="animate-wave inline-block delay-100">A</span>

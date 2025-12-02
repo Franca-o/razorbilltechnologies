@@ -91,7 +91,7 @@ export default function PrivacyPolicy() {
         <br />Razorbill Technologies
       </p>
       <ul className="list-disc list-inside text-gray-900 mb-4">
-        <li>Email: info@razorbill.tech</li>
+        <li>Email: support@executiveaid.org</li>
         <li>Phone: +233 256 108 055</li>
       </ul>
 
