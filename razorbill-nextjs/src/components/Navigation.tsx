@@ -77,7 +77,7 @@ export default function Navigation({ isScrolled, currentPage, contactLink = "#fo
           <div className="flex flex-col">
             <Link
               href="/"
-              className="relative text-2xl md:text-3xl font-extrabold tracking-wider text-cyan-300 drop-shadow-lg hover:text-blue-400 transition-all duration-300 font-orbitron"
+              className="relative text-2xl md:text-3xl font-extrabold tracking-wider text-gray-300 drop-shadow-lg hover:text-gray-400 transition-all duration-300 font-orbitron"
             >
               <span className="animate-wave inline-block">R</span>
               <span className="animate-wave inline-block delay-100">A</span>
