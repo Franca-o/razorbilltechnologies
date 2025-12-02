@@ -1026,7 +1026,7 @@ export default function HomeClient() {
         <h4 className="font-bold text-gray-100 mb-4">Quick Links</h4>
         <ul className="space-y-2 text-gray-400 text-sm">
           <li><Link href="#bookmyspot" className="hover:text-cyan-400 transition">BookMySpot</Link></li>
-          <li><Link href="#focuscrm" className="hover:text-cyan-400 transition"> Focus</Link></li>
+          <li><Link href="#focuscrm" className="hover:text-cyan-400 transition"> Focus </Link></li>
 
           <li><Link href="https://razorbillbookmyspot.netlify.app/" className="hover:text-cyan-400 transition">Sign Up Now</Link></li>
         </ul>
