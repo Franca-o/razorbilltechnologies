@@ -177,7 +177,7 @@ export default function HomeClient() {
         <HeroCarousel />
        
         <Link 
-        href="#services"
+        href="#solutions"
         className="absolute bottom-8 left-8 z-30 bg-gradient-to-r from-cyan-400 to-blue-600 text-white px-6 md:px-8 py-2 md:py-3 text-sm md:text-base font-bold rounded-full shadow-lg hover:from-blue-500 hover:to-purple-600 transition-all duration-300 button-hover-glow font-orbitron"
       >
         Explore Solutions
@@ -198,6 +198,10 @@ export default function HomeClient() {
       </h2>
       <p className="text-lg text-gray-600 max-w-3xl mx-auto">
         From seamless bookings to powerful POS, dynamic eCommerce, and data driven marketing, we build tools that make your business smarter.
+        <p className="text-lg text-gray-700">
+          Simplified Enterprise Solutions<br />
+          Unlock the full potential of your business with technology.
+        </p>
       </p>
     </div>
 
@@ -215,10 +219,10 @@ export default function HomeClient() {
           </p>
         </div>
         <div className="flex justify-center gap-3">
-          <Link href="https://razorbillbookmyspot.netlify.app/" className="inline-block bg-gradient-to-r from-gray-600 to-gray-800 text-white px-4 py-2 rounded-md text-sm font-semibold shadow-md hover:from-gray-700 hover:to-black transition">
+          <Link href="https://razorbillbookmyspot.netlify.app/auth" className="inline-block bg-gradient-to-r from-gray-600 to-gray-800 text-white px-4 py-2 rounded-md text-sm font-semibold shadow-md hover:from-gray-700 hover:to-black transition">
             Sign Up
           </Link>
-          <Link href="#bookmyspot" className="inline-block border border-gray-600 text-gray-800 px-4 py-2 rounded-md text-sm font-semibold hover:bg-gray-800 hover:text-white transition">
+          <Link href="https://razorbillbookmyspot.netlify.app/" className="inline-block border border-gray-600 text-gray-800 px-4 py-2 rounded-md text-sm font-semibold hover:bg-gray-800 hover:text-white transition">
             Learn More
           </Link>
         </div>
@@ -278,10 +282,10 @@ export default function HomeClient() {
           </p>
         </div>
         <div className="flex justify-center gap-3">
-          <Link href="https://razorbillbookmyspot.netlify.app/" className="inline-block bg-gradient-to-r from-gray-600 to-gray-800 text-white px-4 py-2 rounded-md text-sm font-semibold shadow-md hover:from-gray-700 hover:to-black transition">
+          <Link href="https://razorbillbookmyspot.netlify.app/auth" className="inline-block bg-gradient-to-r from-gray-600 to-gray-800 text-white px-4 py-2 rounded-md text-sm font-semibold shadow-md hover:from-gray-700 hover:to-black transition">
             Sign Up
           </Link>
-          <Link href="#focuscrm" className="inline-block border border-gray-600 text-gray-800 px-4 py-2 rounded-md text-sm font-semibold hover:bg-gray-800 hover:text-white transition">
+          <Link href="https://razorbillbookmyspot.netlify.app/" className="inline-block border border-gray-600 text-gray-800 px-4 py-2 rounded-md text-sm font-semibold hover:bg-gray-800 hover:text-white transition">
             Learn More
           </Link>
         </div>
@@ -982,7 +986,7 @@ export default function HomeClient() {
 
     <div className="flex justify-center mt-8">
       <a 
-        href="https://razorbillbookmyspot.netlify.app/"
+        href="https://razorbillbookmyspot.netlify.app/auth"
         target="_blank"
         rel="noopener noreferrer"
         className="inline-flex items-center bg-gradient-to-r from-cyan-400 to-blue-600 text-white px-6 md:px-8 py-2 md:py-3 text-sm md:text-base font-bold rounded-full shadow-lg hover:from-blue-500 hover:to-purple-600 transition-all duration-300 button-hover-glow font-orbitron cursor-pointer pointer-events-auto z-10"
@@ -1015,10 +1019,7 @@ export default function HomeClient() {
         <h3 className="text-2xl font-orbitron font-bold text-gray-200 mb-3">
           <span className="text-gray-400">Razorbill</span> Technologies
         </h3>
-        <p className="text-sm text-gray-400">
-          Simplified Enterprise Solutions<br />
-          Unlock the full potential of your business with technology.
-        </p>
+        
       </div>
 
       {/* Quick Links */}
@@ -1028,7 +1029,7 @@ export default function HomeClient() {
           <li><Link href="#bookmyspot" className="hover:text-cyan-400 transition">BookMySpot</Link></li>
           <li><Link href="#focuscrm" className="hover:text-cyan-400 transition"> Focus </Link></li>
 
-          <li><Link href="https://razorbillbookmyspot.netlify.app/" className="hover:text-cyan-400 transition">Sign Up Now</Link></li>
+          <li><Link href="https://razorbillbookmyspot.netlify.app/auth" className="hover:text-cyan-400 transition">Sign Up Now</Link></li>
         </ul>
       </div>
 
