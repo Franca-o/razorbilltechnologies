@@ -198,11 +198,12 @@ export default function HomeClient() {
       </h2>
       <p className="text-lg text-gray-600 max-w-3xl mx-auto">
         From seamless bookings to powerful POS, dynamic eCommerce, and data driven marketing, we build tools that make your business smarter.
-        <p className="text-lg text-gray-700">
+
+      </p>
+      <p className="text-lg text-gray-700">
           Simplified Enterprise Solutions<br />
           Unlock the full potential of your business with technology.
         </p>
-      </p>
     </div>
 
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -219,10 +220,10 @@ export default function HomeClient() {
           </p>
         </div>
         <div className="flex justify-center gap-3">
-          <Link href="https://razorbillbookmyspot.netlify.app/auth" className="inline-block bg-gradient-to-r from-gray-600 to-gray-800 text-white px-4 py-2 rounded-md text-sm font-semibold shadow-md hover:from-gray-700 hover:to-black transition">
+          <Link href="https://bookmyspot.razorbilltechnologies.com/auth" className="inline-block bg-gradient-to-r from-gray-600 to-gray-800 text-white px-4 py-2 rounded-md text-sm font-semibold shadow-md hover:from-gray-700 hover:to-black transition">
             Sign Up
           </Link>
-          <Link href="https://razorbillbookmyspot.netlify.app/" className="inline-block border border-gray-600 text-gray-800 px-4 py-2 rounded-md text-sm font-semibold hover:bg-gray-800 hover:text-white transition">
+          <Link href="https://bookmyspot.razorbilltechnologies.com/" className="inline-block border border-gray-600 text-gray-800 px-4 py-2 rounded-md text-sm font-semibold hover:bg-gray-800 hover:text-white transition">
             Learn More
           </Link>
         </div>
@@ -282,10 +283,10 @@ export default function HomeClient() {
           </p>
         </div>
         <div className="flex justify-center gap-3">
-          <Link href="https://razorbillbookmyspot.netlify.app/auth" className="inline-block bg-gradient-to-r from-gray-600 to-gray-800 text-white px-4 py-2 rounded-md text-sm font-semibold shadow-md hover:from-gray-700 hover:to-black transition">
+          <Link href="https://bookmyspot.razorbilltechnologies.com/auth" className="inline-block bg-gradient-to-r from-gray-600 to-gray-800 text-white px-4 py-2 rounded-md text-sm font-semibold shadow-md hover:from-gray-700 hover:to-black transition">
             Sign Up
           </Link>
-          <Link href="https://razorbillbookmyspot.netlify.app/" className="inline-block border border-gray-600 text-gray-800 px-4 py-2 rounded-md text-sm font-semibold hover:bg-gray-800 hover:text-white transition">
+          <Link href="https://bookmyspot.razorbilltechnologies.com/" className="inline-block border border-gray-600 text-gray-800 px-4 py-2 rounded-md text-sm font-semibold hover:bg-gray-800 hover:text-white transition">
             Learn More
           </Link>
         </div>
@@ -986,7 +987,7 @@ export default function HomeClient() {
 
     <div className="flex justify-center mt-8">
       <a 
-        href="https://razorbillbookmyspot.netlify.app/auth"
+        href="https://bookmyspot.razorbilltechnologies.com/auth"
         target="_blank"
         rel="noopener noreferrer"
         className="inline-flex items-center bg-gradient-to-r from-cyan-400 to-blue-600 text-white px-6 md:px-8 py-2 md:py-3 text-sm md:text-base font-bold rounded-full shadow-lg hover:from-blue-500 hover:to-purple-600 transition-all duration-300 button-hover-glow font-orbitron cursor-pointer pointer-events-auto z-10"
@@ -1029,7 +1030,7 @@ export default function HomeClient() {
           <li><Link href="#bookmyspot" className="hover:text-cyan-400 transition">BookMySpot</Link></li>
           <li><Link href="#focuscrm" className="hover:text-cyan-400 transition"> Focus </Link></li>
 
-          <li><Link href="https://razorbillbookmyspot.netlify.app/auth" className="hover:text-cyan-400 transition">Sign Up Now</Link></li>
+          <li><Link href="https://bookmyspot.razorbilltechnologies.com/auth" className="hover:text-cyan-400 transition">Sign Up Now</Link></li>
         </ul>
       </div>
 

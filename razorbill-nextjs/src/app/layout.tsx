@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Syne, DM_Sans } from "next/font/google";
 import "./globals.css";
+import CookieBanner from "../components/CookieBanner";
 
 
 const dmSans = DM_Sans({
@@ -69,6 +70,7 @@ export default function RootLayout({
       </head>
       <body className={`${dmSans.className}`}>
         {children}
+        <CookieBanner />
       </body>
     </html>
   );
